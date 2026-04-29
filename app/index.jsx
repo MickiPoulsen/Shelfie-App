@@ -3,7 +3,9 @@ import React from 'react'
 import Logo from '../assets/img/logo_light.png'
 import { Link } from 'expo-router'
 
+
 const home = () => {
+    const unusedVariable = "fail";
   return (
     <View style={styles.container}>
         <Image source={Logo} style={styles.img} />

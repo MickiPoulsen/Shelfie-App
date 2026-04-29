@@ -5,9 +5,22 @@ export default [
   js.configs.recommended,
   {
     files: ["*/.{js,jsx}"],
+    languageOptions: {
+      parserOptions: {
+        ecmaFeatures: {
+          jsx: true
+        }
+      }
+    },
     plugins: { react },
+    settings: {
+      react: {
+        version: "detect"
+      }
+    },
     rules: {
-      "react/react-in-jsx-scope": "off"
+      "react/react-in-jsx-scope": "off",
+      "react/jsx-uses-vars": "error"
     }
   }
 ];
