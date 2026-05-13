@@ -1,6 +1,7 @@
 import { StyleSheet, Text, View } from 'react-native'
 import {Link} from 'expo-router'
 import React from 'react'
+import { Colors } from '../constants/Colors'
 
 
 const Contact = () => {

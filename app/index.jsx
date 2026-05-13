@@ -2,6 +2,7 @@ import { StyleSheet, Text, View, Image} from 'react-native'
 import React from 'react'
 import Logo from '../assets/img/logo_light.png'
 import { Link } from 'expo-router'
+import { Colors } from '../constants/Colors'
 
 
 const home = () => {
